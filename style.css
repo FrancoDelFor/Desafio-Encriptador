@@ -1,0 +1,110 @@
+body{
+    
+    background-color: #F3F5FC;
+    
+    
+}
+.logo{
+    margin: 10px;
+}
+main{
+    width: 100%;
+    display: inline-block;
+    
+}
+section{
+    width: 80%;
+}
+textarea{
+    resize: none;
+}
+.input-mensaje{
+    width: 58%;
+    float: left;
+    
+}
+.output-mensaje{
+    width: 38%;
+    border-radius: 20px;
+    background-color: #FFF;
+    border: #F3F5FC;
+    float: right;    
+    background-color: #FFF;
+    width: 40%;
+    height: 944px;   
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+#copiar{
+    background-color: #FFF;
+    border: 2px solid #0A3871;
+}
+.pantalla-salida{
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    height: 944px; 
+    background-image: url(img/fondo.png);
+    background-repeat:no-repeat;
+    background-size:auto;
+    font-size: 33px;
+    color: #0A3871;
+
+}
+.entrada-mensaje{
+    
+    width: 90%;
+    height: 900px;
+    margin: 20px;
+    background-color: #F3F5FC;
+    border: #F3F5FC;    
+    box-sizing: border-box;
+    font-size: 33px;
+    color: #0A3871;
+    border-radius: 20px;
+    
+    
+}
+.entrada-mensaje::placeholder{
+    color: #0A3871;
+}
+
+.icono{
+    width: 16px;
+    height: 16px;
+}
+.advertencia{
+    font-size: 12px;
+    margin: 20px 0;
+}
+.botonera{
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    display: block;    
+}
+.botones{
+    display: inline-block;
+}
+.boton{
+    width: 330px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    font-size: 20px;
+    font-weight: bold;
+}
+#encriptar{
+    background-color: #0A3871;
+    color: #F3F5FC;
+}
+footer{
+    padding: 30px;
+    text-align: center;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    font-size: 20px;
+    font-weight: bold;
+}
